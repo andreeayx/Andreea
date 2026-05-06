@@ -1,0 +1,50 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Configurarea temei moderncv
+\moderncvstyle{classic} 
+\moderncvcolor{blue} 
+
+% Setările de pagină și fonturi pentru limba română
+\usepackage[romanian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry}
+
+% Date Personale
+\name{Mihai}{Andreea}
+\title{Elevă în clasa a XII-a}
+\address{Republica Moldova}{}
+\phone[mobile]{+373~000~000~000} % Te rog să adaugi numărul tău de telefon
+\email{andreea.mihai@email.com}    % Te rog să adaugi adresa ta de email
+\extrainfo{Data nașterii: 08.12.2007}
+
+% Documentul propriu-zis
+\begin{document}
+\makecvtitle
+
+\section{Educație}
+\cventry{2022--Prezent}{Elevă - Profil Real/Uman}{Liceul Teoretic „Mihai Marinciuc”}{Chișinău}{}{În prezent urmez cursurile clasei a XII-a, pregătindu-mă pentru examenul de Bacalaureat.}
+
+\section{Certificări și Competențe Lingvistice}
+\cvitemwithcomment{Română}{Maternă}{}
+\cvitemwithcomment{Engleză}{B2 - Upper Intermediate}{Certificat Cambridge FCE (First Certificate in English)}
+\cvitemwithcomment{Rusă}{Nivel de bază/Intermediar}{Dacă este cazul}
+
+\section{Competențe Digitale}
+\cvitem{Productivitate}{Pachetul Microsoft Office (Word, PowerPoint, Excel), Google Workspace.}
+\cvitem{Social Media}{Gestionarea conținutului și comunicare online.}
+
+\section{Abilități Personale}
+\cvlistitem{Capacitate de învățare rapidă și adaptabilitate.}
+\cvlistitem{Abilități de comunicare și lucru în echipă, dezvoltate în cadrul proiectelor școlare.}
+\cvlistitem{Punctualitate și responsabilitate în îndeplinirea sarcinilor.}
+\cvlistitem{Gândire critică și orientare spre rezolvarea problemelor.}
+
+\section{Interese și Activități}
+\cvitem{Voluntariat}{Participare la diverse activități comunitare sau evenimente organizate de liceu.}
+\cvitem{Lectură}{Interes pentru literatura clasică și dezvoltare personală.}
+\cvitem{Sport}{Stil de viață activ și participare la activități sportive recreative.}
+
+\section{Obiectiv Profesional}
+\cvitem{}{Sunt o persoană ambițioasă, aflată în ultimul an de liceu, dornică să îmi dezvolt abilitățile practice și să acumulez experiență într-un mediu profesional dinamic. Certificarea B2 în limba engleză îmi permite să comunic eficient într-un context internațional.}
+
+\end{document}
